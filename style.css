@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+}
+
+body{
+font-family: 'Press Start 2P', cursive;
+background-color: #FF9505;
+text-align: center;
+
+
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 8vmin;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #FFC971;
+    color: #191913;
+}
+
+#resetBtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: antiquewhite;
+    background-color: #191913;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 1rem;
+}
+
+#newBtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    color: antiquewhite;
+    background-color: #191913;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 1rem;
+}
+
+#msg{
+    color: #191913;
+    font-size: 10vmin;
+}
+
+
+.msg-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+
+.hide{
+    display: none;
+}
